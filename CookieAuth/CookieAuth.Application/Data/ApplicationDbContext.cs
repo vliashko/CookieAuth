@@ -1,22 +1,14 @@
-﻿using System;
+﻿using CookieAuth.Application.Models;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata;
-using CookieAuth.Application.Models;
-
-#nullable disable
 
 namespace CookieAuth.Application.Data
 {
     public partial class ApplicationDbContext : DbContext
     {
-        public ApplicationDbContext()
-        {
-        }
+        public ApplicationDbContext() { }
 
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
-            : base(options)
-        {
-        }
+            : base(options) { }
 
         public virtual DbSet<User> Users { get; set; }
 

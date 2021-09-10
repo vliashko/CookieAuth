@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-#nullable disable
-
-namespace CookieAuth.Application.Models
+﻿namespace CookieAuth.Application.Models
 {
     public partial class User
     {
