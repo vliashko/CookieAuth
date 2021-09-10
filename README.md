@@ -2,6 +2,8 @@
 
 Create simple table with next structure to work with this application
 
+(vladimir1 - used for Admin checks)
+
 ![image](https://user-images.githubusercontent.com/67163370/132915804-0219b22a-5f4f-435a-89ef-83d5f307e421.png)
 
 
